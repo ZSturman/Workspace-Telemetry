@@ -1,0 +1,39 @@
+{
+  "enabledStrategies": [],
+  "worklog": {
+    "filesystemJournalPath": "~/Library/Application Support/WorkspaceTelemetry/inbox/hammerspoon-filesystem.jsonl",
+    "terminalJournalPath": "~/Library/Application Support/WorkspaceTelemetry/inbox/terminal-events.jsonl",
+    "watchRootsManifestPath": "~/Library/Application Support/WorkspaceTelemetry/watch-roots.json",
+    "ignorePathFragments": ["/.git/", "/node_modules/", "/build/", "/dist/", "/DerivedData/", "/.cache/", "/Caches/", "/tmp/", "/.venv/", "/venv/"],
+    "matchingWeights": {"repo_root": 1.0, "workspace_root": 0.95, "local_preset": 0.95, "file_path_prefix": 0.9, "vscode_workspace": 0.85, "browser_domain": 0.65, "app_hint": 0.45, "recent_session": 0.35},
+    "projectPresets": {
+      "notion-project-page-id": {
+        "paths": ["~/Projects/Example Project"],
+        "repos": ["~/Projects/Example Project"]
+      }
+    }
+  },
+  "privacy": {
+    "ignoredApps": [],
+    "ignoredDomains": [],
+    "ignoredBuckets": [],
+    "sensitiveKeywords": [],
+    "minimumDurationSeconds": 5,
+    "appCategories": {
+      "Obsidian": "notes"
+    },
+    "focusCategories": ["coding", "work", "notes"],
+    "productiveCategories": ["coding", "work", "notes"],
+    "distractingCategories": ["media", "distraction"],
+    "blockingFocusModes": ["sleep", "driving"],
+    "focusModeCategories": {"work": ["coding", "work", "notes"]},
+    "workspaceLabelApps": ["visual studio code", "code", "cursor", "xcode", "terminal", "iterm2"],
+    "projectRules": {
+      "Kiosk": {
+        "apps": ["visual studio code"],
+        "domains": [],
+        "categories": ["coding"]
+      }
+    }
+  }
+}
